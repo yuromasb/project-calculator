@@ -13,6 +13,10 @@ numbers.forEach((number) => {
     })
 })
 
+let prevNumber = ''
+let calculationOperator = ''
+let currentNumber = '0'
+
 const inputNumber = (number) => {
     if (currentNumber === '0') {
         currentNumber = number
